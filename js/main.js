@@ -22,10 +22,10 @@ console.log(orderRange)
 start.addEventListener("click", () => {
     let userName = prompt("what is ur name");
     if (userName === null){
-        hello.textContent = `Welcome: Guest`;
+        hello.textContent = `Welcome Guest`;
         start.parentElement.style.display = "none";
     }else{
-    userName.length === 0 ? hello.textContent = `Welcome: Guest` : hello.textContent = `Welcome: ${userName}`;
+    userName.length === 0 ? hello.textContent = `Welcome Guest` : hello.textContent = `Welcome ${userName}`;
     start.parentElement.style.display = "none";
     }
 })
